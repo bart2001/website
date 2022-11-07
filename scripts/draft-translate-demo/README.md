@@ -9,6 +9,7 @@
 ```bash
 git clone https://github.com/bart2001/website.git
 git checkout feature/translation-script-demo # checkout for this branch
+cd website/scripts
 ```
 
 ### Install Requirements
@@ -19,6 +20,7 @@ python3 -m pip install -r requirements.txt
 ### Run Demo Bash Script
 You can use bash script to add arguments draft-translate.py at ease
 ```bash
+cd draft-translate-demo
 vim draft-translate.sh 
 ./draft-translate.sh
 ```
